@@ -1,0 +1,48 @@
+body{
+    background-image: url(aesthetic.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.homepage {
+    color: white;
+padding-left: 80px;
+padding-top: 130px;
+}
+.homepage h1{
+    font-size: 50px;
+}
+.homepage p{
+    font-size: 18px;
+}
+.follow img{
+    width: 50px;
+}
+.sign{
+    color: black;
+    top: 170px;
+    left: 800px;
+    padding: 30px;
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    background-color: rgba(247, 241, 241, 0.514);
+    border-radius: 20px;
+}
+.cancel{
+    background-color: rgb(219, 46, 46);
+    cursor: pointer;
+    transition:.3 ease;
+}
+.cancel:hover{
+    background-color: rgb(112, 6, 6);
+  }
+.btn{
+    background-color: rgb(25, 194, 39);
+    cursor: pointer;
+    transition:.3 ease;  
+}
+.btn:hover{
+    background-color: rgb(3, 65, 3);
+}
